@@ -9,7 +9,7 @@ And('I should see main page', () => {
     cy.get('#root').should('be.visible')
 })
 
-//Adding a new unique Dog into the Shop
+//2nd Scenario: Adding a new unique Dog into the Shop
 
 And('Dog was not previously added into the Shop', () => {
     AppPage.visit()
